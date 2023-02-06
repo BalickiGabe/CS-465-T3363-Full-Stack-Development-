@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const readLine = require('readLine');
+const readLine = require('readline');
 
 let dbURL = 'mongodb://127.0.0.1/travlr';
 if (process.env.NODE_ENV === 'production'){
